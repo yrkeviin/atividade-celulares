@@ -17,7 +17,8 @@ export default function ProductCard({imagem, nome, preco, desc, star, qntStar}) 
 
             <div className={styles.stars}>
                 <span>⭐⭐⭐⭐⭐</span>
-                <p>{star} -</p>
+                <p>{star}</p>
+                <p>-</p>
                 <p>{qntStar} avaliações</p>
             </div>
         </div>
